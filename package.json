@@ -3,14 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "babel":{
-      "presets":[
-        "@babel/preset-env",
-        "@babel/preset-react"
-      ]
-  },
   "scripts": {
-    "dev":"webpack-dev-server --open"
+    "start":"webpack-dev-server --open --port 4000 --compress --mode development",
+    "dev":"webpack --mode development --progress",
+    "build":"webpack --mode production --progress"
   },
   "author": "mythLabs",
   "license": "ISC",
