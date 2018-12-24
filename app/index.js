@@ -1,6 +1,6 @@
 var React = require ('react');
 var ReactDOM = require('react-dom');
-require('index.css');
+require('./index.css');
 
 class App extends React.Component{
     render(){
@@ -8,5 +8,5 @@ class App extends React.Component{
     }
 }
 
-ReactDOM(<App/>,document.querySelector('#root'));
+ReactDOM.render(<App/>,document.querySelector('#root'));
 
