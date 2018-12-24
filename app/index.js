@@ -1,12 +1,12 @@
-var React = require ('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import reactDOM from 'react-dom';
 require('./index.css');
 
 class App extends React.Component{
     render(){
-        return <div> Your own create-react-app </div>
+        return <div> Your own create-react-app (Sort off..)</div>
     }
 }
 
-ReactDOM.render(<App/>,document.querySelector('#root'));
+reactDOM.render(<App/>,document.querySelector('#root'));
 

@@ -10,7 +10,7 @@
       ]
   },
   "scripts": {
-    "create":"webpack"
+    "dev":"webpack-dev-server --open"
   },
   "author": "mythLabs",
   "license": "ISC",
